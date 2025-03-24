@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "lang": {
+      "ar": "ar",
+      "en": "en",
+      "fr": "fr"
+    },
+    "menu": {
+      "home": "Home",
+      "buy": "Buy a Car",
+      "rent": "Rent a Car",
+      "financing": "Financing",
+      "about": "About Us"
+    },
+
+    "theme": {
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "buttons": {
+      "sign-in": "Sign In",
+      "sign-up": "Sign Up"
+    }
+  },
+  "home": {
+    "meta-data": {
+      "title": "The Best Car Rental Website",
+      "description": "Book your car easily with the best car rental deals in your city.",
+      "book_now": "Book Now",
+      "language": "Language"
+    },
+    "page": {}
+  },
+  "signIn": {
+    "meta-data": {
+      "title": "Sign In - Car Rental",
+      "description": "Log in to your account and start booking your car."
+    },
+    "page": {
+      "title": "Sign In or Create Account",
+      "description": "You can sign in using your Booking.com account to access our services.",
+      "email": {
+        "label": "Email",
+        "placeholder": "olivia@untitledui.com",
+        "validation": "Invalid email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password",
+        "validation": "Password must be at least 6 characters"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Enter password confirmation",
+        "validation": "Confirm password must be at least 6 characters"
+      },
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name",
+        "validation": "First name is required"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name",
+        "validation": "Last name is required"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "accountType": {
+        "label": "Account Type",
+        "agence": "Agence",
+        "customer": "Customer"
+      },
+      "identityDocument": {
+        "label": "Identity Document",
+        "placeholder": "Upload your identity document",
+        "validation": "Identity document is required"
+      },
+      "agencyLicense": {
+        "label": "Agency License",
+        "placeholder": "Upload your agency license",
+        "validation": "Agency license is required"
+      },
+      "businessAddressProof": {
+        "label": "Business Address Proof",
+        "placeholder": "Upload proof of business address",
+        "validation": "Proof of business address is required"
+      },
+      "bankDetails": {
+        "accountHolderName": {
+          "label": "Account Holder Name",
+          "placeholder": "Enter account holder name",
+          "validation": "Account holder name is required"
+        },
+        "bankName": {
+          "label": "Bank Name",
+          "placeholder": "Enter bank name",
+          "validation": "Bank name is required"
+        },
+        "iban": {
+          "label": "IBAN",
+          "placeholder": "Enter IBAN",
+          "validation": "Invalid IBAN"
+        },
+        "accountNumber": {
+          "label": "Bank Account Number",
+          "placeholder": "Enter bank account number",
+          "validation": "Invalid bank account number"
+        }
+      },
+      "drivingLicense": {
+        "label": "Driving License",
+        "placeholder": "Upload your driving license",
+        "validation": "Driving license is required"
+      },
+      "or": "Or use one of these options",
+      "buttons": {
+        "submit": "Continue with Email",
+        "next": "Next",
+        "google": "Continue with Google",
+        "facebook": "Continue with Facebook",
+        "apple": "Continue with Apple",
+        "alreadyHaveAccount": "Already have an account?",
+        "createAccount": "Create Account"
+      },
+      "privacy": {
+        "label": "All rights reserved.",
+        "link": "Privacy Policy",
+        "copyright": "© (2025 - 2030) - flexicars.com"
+      },
+      "teams": {
+        "label": "By signing in or creating an account, you agree to our",
+        "link": "Terms and Conditions",
+        "and": "and"
+      }
+    }
+  }
+}

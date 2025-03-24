@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "lang": {
+      "ar": "ar",
+      "en": "en",
+      "fr": "fr"
+    },
+    "menu": {
+      "home": "الصفحة الرئيسية",
+      "buy": "شراء سيارة",
+      "rent": "استئجار سيارة",
+      "financing": "التمويل",
+      "about": "من نحن"
+    },
+    "theme": {
+      "light": "فاتح",
+      "dark": "داكن"
+    },
+    "buttons": {
+      "sign-in": "تسجيل الدخول",
+      "sign-up": "إنشاء حساب"
+    }
+  },
+  "home": {
+    "meta-data": {
+      "title": "أفضل موقع لتأجير السيارات",
+      "description": "احجز سيارتك بسهولة مع أفضل عروض تأجير السيارات في مدينتك.",
+      "book_now": "احجز الآن",
+      "language": "اللغة"
+    },
+    "page": {}
+  },
+
+  "signIn": {
+    "meta-data": {
+      "title": "تسجيل الدخول - تأجير السيارات",
+      "description": "قم بتسجيل الدخول إلى حسابك وابدأ بحجز سيارتك."
+    },
+    "page": {
+      "title": "تسجيل الدخول أو إنشاء حساب",
+      "description": "يمكنك تسجيل الدخول باستخدام حساب Booking.com الخاص بك للوصول إلى خدماتنا.",
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "olivia@untitledui.com",
+        "validation": "البريد الإلكتروني غير صالح"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "أدخل كلمة المرور",
+        "validation": "كلمة المرور يجب أن تكون على الأقل 6 أحرف"
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أدخل تأكيد كلمة المرور",
+        "validation": "تأكيد كلمة المرور يجب أن يكون على الأقل 6 أحرف"
+      },
+      "firstName": {
+        "label": "الاسم الأول",
+        "placeholder": "أدخل الاسم الأول",
+        "validation": "الاسم الأول مطلوب"
+      },
+      "lastName": {
+        "label": "اسم العائلة",
+        "placeholder": "أدخل اسم العائلة",
+        "validation": "اسم العائلة مطلوب"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم الهاتف"
+      },
+      "accountType": {
+        "label": "نوع الحساب",
+        "agence": "وكالة",
+        "customer": "عميل"
+      },
+      "identityDocument": {
+        "label": "وثيقة الهوية",
+        "placeholder": "قم بتحميل وثيقة الهوية",
+        "validation": "يجب رفع وثيقة الهوية"
+      },
+      "agencyLicense": {
+        "label": "رخصة الوكالة",
+        "placeholder": "قم بتحميل رخصة الوكالة",
+        "validation": "يجب رفع رخصة الوكالة"
+      },
+      "businessAddressProof": {
+        "label": "إثبات عنوان العمل",
+        "placeholder": "قم بتحميل إثبات عنوان العمل",
+        "validation": "يجب رفع إثبات عنوان العمل"
+      },
+      "bankDetails": {
+        "accountHolderName": {
+          "label": "اسم صاحب الحساب",
+          "placeholder": "أدخل اسم صاحب الحساب",
+          "validation": "اسم صاحب الحساب مطلوب"
+        },
+        "bankName": {
+          "label": "اسم البنك",
+          "placeholder": "أدخل اسم البنك",
+          "validation": "اسم البنك مطلوب"
+        },
+        "iban": {
+          "label": "رقم IBAN",
+          "placeholder": "أدخل رقم IBAN",
+          "validation": "رقم IBAN غير صحيح"
+        },
+        "accountNumber": {
+          "label": "رقم الحساب البنكي",
+          "placeholder": "أدخل رقم الحساب البنكي",
+          "validation": "رقم الحساب البنكي غير صحيح"
+        }
+      },
+      "drivingLicense": {
+        "label": "رخصة القيادة",
+        "placeholder": "قم بتحميل رخصة القيادة",
+        "validation": "يجب رفع رخصة القيادة"
+      },
+      "or": "أو استخدم إحدى هذه الخيارات",
+      "buttons": {
+        "submit": "المتابعة باستخدام البريد الإلكتروني",
+        "next": "التالي",
+        "google": "المتابعة باستخدام Google",
+        "facebook": "المتابعة باستخدام Facebook",
+        "apple": "المتابعة باستخدام Apple",
+        "alreadyHaveAccount": "لديك حساب بالفعل؟",
+        "createAccount": "انشاء حساب"
+      },
+      "privacy": {
+        "label": "جميع الحقوق محفوظة.",
+        "link": "بيان الخصوصية",
+        "copyright": "حقوق النشر (2025 - 2030) - flexicars.com"
+      },
+      "teams": {
+        "label": "عند تسجيل الدخول أو إنشاء حساب، فإنك توافق على",
+        "link": "الشروط والأحكام",
+        "and": "و"
+      }
+    }
+  }
+}

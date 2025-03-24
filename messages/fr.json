@@ -1,0 +1,139 @@
+{
+  "navbar": {
+    "lang": {
+      "ar": "ar",
+      "en": "en",
+      "fr": "fr"
+    },
+    "menu": {
+      "home": "Accueil",
+      "buy": "Acheter une voiture",
+      "rent": "Louer une voiture",
+      "financing": "Financement",
+      "about": "À propos de nous"
+    },
+    "theme": {
+      "light": "Clair",
+      "dark": "Sombre"
+    },
+    "buttons": {
+      "sign-in": "Se connecter",
+      "sign-up": "S'inscrire"
+    }
+  },
+  "home": {
+    "meta-data": {
+      "title": "Le meilleur site de location de voitures",
+      "description": "Réservez facilement votre voiture avec les meilleures offres de location de voitures dans votre ville.",
+      "book_now": "Réserver maintenant",
+      "language": "Langue"
+    },
+    "page": {}
+  },
+  "signIn": {
+    "meta-data": {
+      "title": "Connexion - Location de voiture",
+      "description": "Connectez-vous à votre compte et commencez à réserver votre voiture."
+    },
+    "page": {
+      "title": "Se connecter ou créer un compte",
+      "description": "Vous pouvez vous connecter en utilisant votre compte Booking.com pour accéder à nos services.",
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "olivia@untitledui.com",
+        "validation": "Adresse e-mail invalide"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Entrez votre mot de passe",
+        "validation": "Le mot de passe doit comporter au moins 6 caractères"
+      },
+      "confirmPassword": {
+        "label": "Confirmer le mot de passe",
+        "placeholder": "Entrez la confirmation du mot de passe",
+        "validation": "La confirmation du mot de passe doit comporter au moins 6 caractères"
+      },
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Entrez votre prénom",
+        "validation": "Le prénom est requis"
+      },
+      "lastName": {
+        "label": "Nom de famille",
+        "placeholder": "Entrez votre nom de famille",
+        "validation": "Le nom de famille est requis"
+      },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "placeholder": "Entrez votre numéro de téléphone"
+      },
+      "accountType": {
+        "label": "Type de compte",
+        "agence": "Agence",
+        "customer": "Client"
+      },
+      "identityDocument": {
+        "label": "Document d'identité",
+        "placeholder": "Téléchargez votre document d'identité",
+        "validation": "Le document d'identité est requis"
+      },
+      "agencyLicense": {
+        "label": "Licence d'agence",
+        "placeholder": "Téléchargez votre licence d'agence",
+        "validation": "La licence d'agence est requise"
+      },
+      "businessAddressProof": {
+        "label": "Justificatif d'adresse",
+        "placeholder": "Téléchargez un justificatif d'adresse",
+        "validation": "Le justificatif d'adresse est requis"
+      },
+      "bankDetails": {
+        "accountHolderName": {
+          "label": "Nom du titulaire",
+          "placeholder": "Entrez le nom du titulaire",
+          "validation": "Le nom du titulaire est requis"
+        },
+        "bankName": {
+          "label": "Nom de la banque",
+          "placeholder": "Entrez le nom de la banque",
+          "validation": "Le nom de la banque est requis"
+        },
+        "iban": {
+          "label": "IBAN",
+          "placeholder": "Entrez l'IBAN",
+          "validation": "IBAN invalide"
+        },
+        "accountNumber": {
+          "label": "Numéro de compte bancaire",
+          "placeholder": "Entrez le numéro de compte bancaire",
+          "validation": "Numéro de compte bancaire invalide"
+        }
+      },
+      "drivingLicense": {
+        "label": "Permis de conduire",
+        "placeholder": "Téléchargez votre permis de conduire",
+        "validation": "Le permis de conduire est requis"
+      },
+      "or": "Ou utilisez l'une de ces options",
+      "buttons": {
+        "submit": "Continuer avec l'e-mail",
+        "next": "Suivant",
+        "google": "Continuer avec Google",
+        "facebook": "Continuer avec Facebook",
+        "apple": "Continuer avec Apple",
+        "alreadyHaveAccount": "Vous avez déjà un compte ?",
+        "createAccount": "Créer un compte"
+      },
+      "privacy": {
+        "label": "Tous droits réservés.",
+        "link": "Politique de confidentialité",
+        "copyright": "© (2025 - 2030) - flexicars.com"
+      },
+      "teams": {
+        "label": "En vous connectant ou en créant un compte, vous acceptez nos",
+        "link": "Conditions Générales",
+        "and": "et"
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.react-datepicker {
+  border: none !important;
+}
+
+.react-datepicker .react-datepicker__month-container:first-of-type {
+  border-right: 1px solid rgb(156 163 175);
+}
+
+.react-datepicker__month-container {
+  border-top: 1px solid rgb(156 163 175);
+  border-bottom: 1px solid rgb(156 163 175);
+  padding: 10px 20px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 15px !important;
+}
+
+.react-datepicker__navigation {
+  top: 20px !important;
+}
+.react-datepicker__header {
+  background-color: transparent !important;
+}
+/* ✅ تحسين شكل الهيدر في الوضع الداكن */
+.dark .react-datepicker__header {
+  background-color: #1e1e20 !important;
+  border-bottom: none !important;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px !important;
+}
+.dark .react-datepicker__day-name,
+.dark .react-datepicker__current-month {
+  color: #d4d4d8 !important;
+}
+
+/* ✅ تخصيص الأيام داخل النطاق */
+.react-datepicker__day--in-range {
+  position: relative;
+  background-color: #b3a591 !important;
+  color: #333 !important;
+  border-radius: 50% !important;
+  z-index: 2;
+}
+.dark .react-datepicker__day--in-range {
+  background-color: #3d3b38 !important;
+}
+
+/* ✅ تأثير hover */
+.react-datepicker__day--in-range:hover {
+  background-color: #e4911c !important;
+}
+
+/* ✅ تخصيص اليوم المحدد */
+.react-datepicker__day--selected {
+  position: relative;
+  /* overflow: hidden; */
+  background-color: #ff9800 !important;
+  border-radius: 50% !important;
+  color: white !important;
+}
+
+.dark .react-datepicker__day--range-end,
+.dark .react-datepicker__day--range-start,
+.react-datepicker__day--range-end,
+.react-datepicker__day--range-start,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--selected:hover {
+  background-color: #e4911c !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  border-radius: 50% !important;
+  background-color: #ff9800 !important;
+}
+/* ✅ تحديد اليوم الحالي */
+.react-datepicker__day--today {
+  border: 1px solid #1e88e5 !important;
+}
+
+/* ✅ تخصيص الوضع الداكن */
+.dark .react-datepicker {
+  background-color: #1e1e20 !important;
+  color: #d4d4d8 !important;
+}
+.dark .react-datepicker__day--selected {
+  background-color: #ff9800 !important;
+  color: white !important;
+}
+.dark .react-datepicker__day {
+  color: #d4d4d8 !important;
+}
+.dark .react-datepicker__day:hover {
+  background-color: #333 !important;
+  color: #ff9800 !important;
+}
+
+
+.swiper-slide-prev {
+  transform: translateY(39%) !important;
+  width: 25% !important;
+  height:  288px !important;
+}
+.swiper-slide-active {
+  width: 46.8% !important;
+  height: 400px !important;
+}
+
+.swiper-slide-next {
+  width: 25% !important;
+  height:  250px !important;
+}
+
+
+@layer components {
+  /* تخصيص مظهر شريط التمرير */
+  ::-webkit-scrollbar {
+    width: 0.5rem; /* عرض شريط التمرير */
+    height: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  /* شريط التمرير في الوضع الفاتح */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-orange-500 rounded-lg; /* لون شريط التمرير في الوضع الفاتح */
+  }
+
+  /* مسار التمرير في الوضع الفاتح */
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100; /* لون مسار التمرير في الوضع الفاتح */
+  }
+
+  /* عند تمرير الفأرة فوق شريط التمرير في الوضع الفاتح */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-600; /* لون عند التفاعل في الوضع الفاتح */
+  }
+
+  /* شريط التمرير في الوضع المظلم */
+  .dark ::-webkit-scrollbar-thumb {
+    @apply bg-orange-300 rounded-lg; /* لون شريط التمرير في الوضع المظلم */
+  }
+
+  /* مسار التمرير في الوضع المظلم */
+  .dark ::-webkit-scrollbar-track {
+    @apply bg-gray-800; /* لون مسار التمرير في الوضع المظلم */
+  }
+
+  /* عند تمرير الفأرة فوق شريط التمرير في الوضع المظلم */
+  .dark ::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-400; /* لون عند التفاعل في الوضع المظلم */
+  }
+}
